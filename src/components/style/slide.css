@@ -20,7 +20,7 @@
   }
   
   .third_section_wrapper_card {
-    background: white;
+    background: #fdfdfd;
     padding: 20px;
     border-radius: 10px;
     height: 300px;
@@ -64,3 +64,23 @@
     bottom: -30px;
   }
   
+
+  @media (max-width: 620px) {
+    .third_section_wrapper_card{
+      width: 180px;
+    }
+    .third_section_card_img{
+      margin-left: 40px;
+    }
+
+  }
+
+  @media (max-width: 600px){
+    .third_section_wrapper_card{
+      width: 300px;
+      margin-left: 50px;
+    }
+    .third_section_card_img{
+      margin-left: 100px;
+    }
+  }

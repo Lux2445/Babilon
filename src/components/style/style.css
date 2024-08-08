@@ -8,7 +8,7 @@
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
-              /* outline: 1px solid rgb(255, 0, 0); */
+              outline: 1px solid rgb(255, 0, 0);
   }
 
 
@@ -952,6 +952,116 @@
         margin-top: 50px;
         margin-right: 20px;
     }
+    .four_section_wrapper_img{
+        display: none;
+    }
+    .second_section_items_paragraph_chapters{
+        margin-left: 150px;
+    }
+    .band-hr{
+        margin-left: 30px;
+    }
+    .second_section_paragraph_item{
+        margin-left: 200px;
+    }
+    .second_section_items_paragraph_text{
+        margin-left: -80px;
+    }
+    .third_section_card_paragraph{
+        font-size: 20px;
+    }
+    .third_section_card_title{
+        font-size: 13px;
+    }
+    .third_section_card_title2{
+        font-size: 14px;
+    }
+    .four_section_wrapper_title{
+        margin-left: -90px;
+    }
+    .fife_section_wrapper{
+        margin-left: -55px;
+    }
 }
 
+@media (max-width: 600px) {
+    .second_section_items_second{
+        display:inline;
+        float:left;  
+        position: absolute;
+    }
+    .second_section{
+        height: 900px;
+    }
+    .second_section_items_second_text{
+        width: 400px;
+        margin-left: 80px;
+    }
+    .second_section_image{
+        margin-left: 120px;
+    }
+    .second_section_items_paragraph_chapters{
+        margin-left: 200px;
+    }
+    .text_first_paragraph{
+        margin-left: 80px;
+    }
+    .text_first_title_first{
+        margin-left: 40px;
+        text-align: center;
+    }
+    .second_section_second_text_second{
+        margin-left: 15px;
+    }
+    .second_section_second_third_title{
+        margin-left: 15px;
+        text-align: center;
+    }
+    .second_section_second_third_button{
+        margin-left: 100px;
+    }
+    .first_section_image{
+        width: 250px;
+        margin-left: -20px;
+    }
+}
 
+    @media (max-width: 595px){
+    .band-hr{
+        width: 400px;
+    }        
+    .band{
+        width: 400px;
+    }
+    .first_section_image{
+        display: none;
+    }
+    .first_section_item_title{
+        font-size: 90px;
+    }
+    .first_section_item_paragraph{
+        text-align: center;
+        margin-left: 40px;
+    }
+    .first_section_item_text{
+        margin-left: -90px;
+    }
+    .fife_section_wrapper_card_img1{
+        margin-top: -147px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 580px) {
+    .fife_section_wrapper_card_img1{
+        margin-top: -147px;
+        margin-left: 21px;
+    }
+}
+
+@media (max-width: 560px){
+    .fife_section_wrapper_card_img1{
+        margin-top: -148px;
+        margin-left: 18px;
+    }
+}
