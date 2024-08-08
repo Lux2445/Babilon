@@ -5,10 +5,10 @@ import Second from '../images/svg/four.svg';
 import Third from '../images/svg/fife.svg';
 import Four from '../images/svg/six.svg';
 import Fife from '../images/svg/seven.svg';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import '../style/style.css'
-import { Container } from 'react-bootstrap';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import '../style/slide.css';
+import '../style/style.css';
 
 export default class ThirdSection extends Component {
   render() {
@@ -40,7 +40,6 @@ export default class ThirdSection extends Component {
     };
 
     return (
-      <Container>
       <div className="third_section">
         <h1 className="third_section_wrapper_text">Как начать работать?</h1>
         <div className='slider'>
@@ -99,7 +98,6 @@ export default class ThirdSection extends Component {
           </Slider>
         </div>
       </div>
-      </Container>
     );
   }
 }
