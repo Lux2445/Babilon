@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import Second from './components/section/second-section';
+import First from './components/section/first-section';
+import Third from './components/section/third-section';
+import Four from './components/section/four-section'
+import Fife from './components/section/fife-section'
+import Slide from './components/section/slide'
+import './components/style/reset.css'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+      <First />
+      <Second/>
+      <Third />
+      <Four />
+      <Fife />
+      </div>
+    )
+  }
 }
-
-export default App;
