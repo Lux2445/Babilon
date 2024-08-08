@@ -8,7 +8,7 @@ import Fife from '../images/svg/seven.svg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../style/slide.css';
-import '../style/style.css';
+
 
 export default class ThirdSection extends Component {
   render() {

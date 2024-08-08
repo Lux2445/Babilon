@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Laptop from '../images/png/project-laptop.png'
 import { Container } from 'react-bootstrap'
 
-
 export default class firstSection extends Component {
   render() {
     return (
