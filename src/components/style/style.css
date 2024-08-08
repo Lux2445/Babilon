@@ -51,8 +51,9 @@
 
 .second_section_items_paragraph_text{
     display: flex;
-    margin-left: 6em;
+    justify-content: center;
     margin-top: 3em;
+    margin-left: -600px;
 }
 
 .second_section_items_title:last-child{
@@ -104,10 +105,6 @@
     transition: all 900ms ease;
 }
 
-.second_section_items_paragraph_text{
-    display: flex;
-    justify-content: center;
-}
 
 .second_section_items_chapter_item:active{
     color: #495AFF;
@@ -590,7 +587,7 @@
     .fife_section_wrapper{
         display:inline;
         float:left;  
-        margin-left: 90px;   
+        margin-left: 180px;   
     }
     .band{
         width: 70%;
@@ -611,11 +608,32 @@
     .fife_section_wrapper_card_paragraph1{
         padding-top: 9%;
     }
-    .fife_section_wrapper_card_img2{
-        margin-left: 5%;
-        margin-top: -22%;
+    .fife_section_wrapper_card_img1{
+        margin-left: 15px;
+        margin-top: -230px;
+    }
+    .second_section_items_second{
+        margin-top: 0px;
+    }
+    .second_section_image{
+        margin-top: 40px;
+    }
+    .second_section_items_second_text{
+        margin-top: -90px;
     }
 }
+    @media (max-width: 840px) {
+        .second_section_items_paragraph_text{
+            margin-left: -490px;
+        }
+        .second_section_items_second_text{
+            margin-top: -50px;
+        }
+        .fife_section_wrapper{
+            margin-left: 160px;
+        }
+    }
+
 
 
   @media (max-width: 768px) {
@@ -927,6 +945,12 @@
         width: 170px;
         margin-top: -146px;
         margin-left: 28px;
+    }
+    .second_section_image{
+        width: 300px;
+        margin-left: -270px;
+        margin-top: 50px;
+        margin-right: 20px;
     }
 }
 
