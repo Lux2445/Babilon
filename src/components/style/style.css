@@ -20,9 +20,7 @@
     background-repeat: no-repeat
 }
 
-.active{
-    color: #448FFF;
-}
+
 
 
 .first_section_wrapper{
@@ -518,6 +516,15 @@
     }
 }
 
+@media (max-width: 1150px){
+    .fife_section_wrapper_card_img1{
+
+    }
+
+
+}
+
+
 @media (max-width: 1024px){
     .fife_section_wrapper_card_img1{
         margin-left: -17px;
@@ -609,51 +616,6 @@
         margin-top: -22%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   @media (max-width: 768px) {
@@ -937,12 +899,35 @@
     .band{
         margin-left: 25%;
     }
+    .fife_section{
+        height: 850px;
+    }
 }
 
 
+@media (max-width: 680px){
+    .fife_section_wrapper_card_img1{
+        width: 190px;
+        margin-top: -165px;
+        margin-left: 18px;
+    }
+}
 
 
+@media (max-width: 650px){
+    .fife_section_wrapper_card_img1{
+        width: 180px;
+        margin-top: -155px;
+        margin-left: 22px;
+    }
+}
 
-
+@media (max-width: 620px){
+    .fife_section_wrapper_card_img1{
+        width: 170px;
+        margin-top: -146px;
+        margin-left: 28px;
+    }
+}
 
 
