@@ -8,7 +8,7 @@
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
-              outline: 1px solid rgb(255, 0, 0);
+              /* outline: 1px solid rgb(255, 0, 0); */
   }
 
 
@@ -678,6 +678,9 @@
         width: 600px;
         margin-left: 280px;
     }
+    .fife_section_wrapper_card:first-child{
+        margin-left: 180px;
+    }
     .second_section_image{
         width: 95%;
         margin-left: -200px;
@@ -762,9 +765,6 @@
     }
     .second_section_items_second{
         margin-left: 5%;
-    }
-    .fife_section_wrapper_card:first-child{
-        margin-left: 180px;
     }
     .fife_section_wrapper_card_paragraph{
         margin-left: -400px;
@@ -1050,6 +1050,10 @@
         margin-top: -147px;
         margin-left: 25px;
     }
+    .band-hr{
+        width: 450px;
+        margin-left: 80px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -1063,5 +1067,37 @@
     .fife_section_wrapper_card_img1{
         margin-top: -148px;
         margin-left: 18px;
+    }
+    .second_section_items_second{
+        margin-left: 5px;
+    }
+    .second_section_items_paragraph_chapters{
+        margin-left: 180px;
+    }
+    .band-hr{
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 530px){
+    .fife_section_wrapper_card_title{
+        line-height: 20px;
+    }
+    .fife_section_wrapper_card{
+        width: 300px;
+        margin-left: 130px;
+    }
+    .fife_section_wrapper_card:last-child{
+        width: 300px;
+        margin-left: 130px;
+    }
+    .fife_section_wrapper_card_img1{
+        margin-left: 35px;
+    }
+    .second_section_items_paragraph_chapters{
+        margin-left: 220px;
+    }
+    .band-hr{
+        width: 420px;
     }
 }

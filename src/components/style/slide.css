@@ -84,3 +84,15 @@
       margin-left: 100px;
     }
   }
+
+  @media (max-width: 560px){
+    .third_section_wrapper_card{
+      margin-left: 25px;
+    }
+  }
+
+  @media (max-width: 520px){
+    .third_section_wrapper_card{
+      margin-left: 15px;
+    }
+  }
