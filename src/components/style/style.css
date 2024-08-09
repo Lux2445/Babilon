@@ -8,7 +8,7 @@
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
-              /* outline: 1px solid rgb(255, 0, 0); */
+              outline: 1px solid rgb(255, 0, 0);
   }
 
 
@@ -1000,6 +1000,15 @@
     .second_section_image{
         margin-left: 120px;
     }
+    .third_section_card_paragraph{
+        font-size: 25px;
+    }
+    .third_section_card_title{
+        font-size: 18px;
+    }
+    .third_section_card_title2{
+        font-size: 18px;
+    }
     .second_section_items_paragraph_chapters{
         margin-left: 200px;
     }
@@ -1083,21 +1092,85 @@
     .fife_section_wrapper_card_title{
         line-height: 20px;
     }
-    .fife_section_wrapper_card{
+    .fife_section_wrapper_card:first-child{
         width: 300px;
-        margin-left: 130px;
+        margin-left: 122px;
     }
     .fife_section_wrapper_card:last-child{
         width: 300px;
-        margin-left: 130px;
+        margin-left: 122px;
     }
     .fife_section_wrapper_card_img1{
         margin-left: 35px;
     }
     .second_section_items_paragraph_chapters{
-        margin-left: 220px;
+        margin-left: 210px;
     }
     .band-hr{
         width: 420px;
+    }
+    .four_section_wrapper_title{
+        margin-left: 13px;
+    }
+    .four_section_wrapper_text_title{
+        font-size: 15px;
+        width: 400px;
+        margin-left: -270px;
+    }
+    .four_section_wrapper_text_title1{
+        font-size: 15px;
+        margin-left: -230px;
+    }
+    .second_section_items_second{
+        margin-left: -5px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .second_section_items_paragraph_text{
+        font-size: 12px;
+    }
+    .second_section_paragraph_item{
+        font-size: 18px;
+        margin-left: 210px;
+        width: 350px;
+    }
+    .second_section_items_second{
+        margin-left: -15px;
+    }
+    .fife_section_wrapper_title{
+        font-size: 25px;
+    }
+    .fife_section_wrapper_card:first-child{
+        margin-left: 105px;
+    }
+    .fife_section_wrapper_card:last-child{
+        margin-left: 105px;
+    }
+    .four_section_wrapper_title{
+        margin-bottom: -20px;
+        margin-top: 40px;
+    }
+    .fife_section_wrapper_title{
+        margin-top: 110px;
+    }
+    .four_section_wrapper{
+        margin-left: 30px;
+        width: 400px;
+    }
+    .four_section_wrapper_text{
+        margin-left: 300px;
+    }
+    .third_section_cards{
+        margin-left: -20px;
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .second_section_items_second{
+        margin-left: -30px;
     }
 }
