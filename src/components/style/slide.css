@@ -96,3 +96,19 @@
       margin-left: 15px;
     }
   }
+
+  @media (max-width: 480px){
+    .third_section_wrapper_card{
+        width: 260px;
+        margin-left: 30px;
+    }
+    .third_section_card_img{
+      margin-left: 80px;
+    }
+}
+
+@media (max-width: 460px){
+  .third_section_wrapper_card{
+    margin-left: 20px;
+  }
+}

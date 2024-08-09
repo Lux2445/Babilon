@@ -1009,6 +1009,9 @@
     .third_section_card_title2{
         font-size: 18px;
     }
+    .third_section_card_link{
+        font-size: 18px;
+    }
     .second_section_items_paragraph_chapters{
         margin-left: 200px;
     }
@@ -1172,5 +1175,58 @@
 @media (max-width: 500px){
     .second_section_items_second{
         margin-left: -30px;
+    }
+}
+
+@media (max-width: 460px){
+    .fife_section_wrapper_card:first-child{
+        margin-left: 85px;
+    }
+    .fife_section_wrapper_card:last-child{
+        margin-left: 85px;
+    }
+    .second_section_items_second{
+        margin-left: -40px;
+    }
+}
+
+
+@media (max-width: 425px){
+    .first_section_item_title{
+        font-size: 70px;
+    }
+    .first_section_item_paragraph{
+        margin-left: 0px;
+    }
+    .second_section_items_second{
+        width: 300px;
+    }
+    .second_section_items_second_text{
+        margin-left: 60px;
+    }
+    .four_section_wrapper_text_title{
+        width: 300px;
+    }
+    .four_section_wrapper{
+        margin-left: -20px;
+    }
+    .fife_section_wrapper_card:first-child{
+        margin-left: -20px;
+    }
+    .fife_section_wrapper_card:last-child{
+        margin-left: -20px;
+    }
+    .band-hr{
+        width: 200px;
+    }
+    .second_section_items_paragraph_text{
+        margin-left: 20px;
+    }
+    .four_section_wrapper_text_title1{
+        margin-top: -15px;
+        margin-left: -155px;
+    }
+    .second_section_image{
+        margin-left: 105px;
     }
 }
